@@ -3,7 +3,7 @@ const links = ["Dashboard", "Patients", "Doctors", "Appointments", "Billing"];
 export default function Sidebar({ active, onChange }) {
   return (
     <aside className="hidden w-56 shrink-0 bg-teal-800 p-4 text-white md:block">
-      <h1 className="mb-8 text-xl font-semibold">MediCare HMS</h1>
+      <h1 className="mb-8 text-xl font-semibold">MEDICARE HMS</h1>
       <nav className="space-y-1">
         {links.map((l) => (
           <button

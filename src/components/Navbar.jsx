@@ -7,7 +7,7 @@ export default function Navbar({ title, search, onSearch }) {
           value={search}
           onChange={(e) => onSearch(e.target.value)}
           placeholder="Search patients"
-          className="w-48 rounded border border-slate-300 px-3 py-1.5 text-sm outline-none focus:border-teal-600 sm:w-64"
+          className="w-48 rounded-full border border-slate-300 px-4 py-1.5 text-sm outline-none focus:border-teal-600 sm:w-64"
         />
         <div className="flex h-9 w-9 items-center justify-center rounded-full bg-teal-700 text-sm font-medium text-white">
           AD
